@@ -1,4 +1,4 @@
-baseURL = 'http://jmd28.org/'
+baseURL = 'https://jmd28.github.io/'
 languageCode = 'en-gb'
 theme = 'salinger'
 
