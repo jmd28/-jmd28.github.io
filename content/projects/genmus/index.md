@@ -6,7 +6,7 @@ draft: false
 
 ![image](app.png)
 
-This is the software artefact I submitted for my Masters dissertation, under supervision of Prof. Ian Miguel.
+This is the software artefact I submitted for my Master's dissertation, under the supervision of Prof. Ian Miguel.
 
 ## abstract
 > Software is a natural ally to generative music. Several existing software systems have
@@ -45,13 +45,13 @@ The system either plays one bass note per chord, or walks a bassline by outlinin
 The chords are also outlined by an arpeggiator, the volume of which is modulated by a low frequency sine wave.
 
 ### rendering the sounds
-I used [CSound](https://csound.com/) to render audio in real-time. CSound is an audio engine, with its own DSL, which allows you to create your own synthesisers using code. It's really cool, if a little tricky to use. Csound ships with Python bindings, which allow instruments to be controlled via function calls, by sending MIDI style events. You can also vary input parameters to the instruments during playback via channels. As an example, we can vary the timbre of the synth pad periodically (from the Python code) by sending filter thresholds over the channel.
+I used [Csound](https://csound.com/) to render audio in real-time. Csound is an audio engine, with its own DSL. The DSL allows you to create your own software instruments with traditional synthesis techniques. It's really cool, if a little tricky to use. Csound ships with Python bindings, which allow instruments to be controlled via function calls, by sending MIDI style events. You can also vary input parameters to the instruments during playback via channels. As an example, we can vary the timbre of the synth pad periodically (from the Python code) by sending filter thresholds over the channel.
 
 ### rendering visuals
-I'm using [Ursina](https://www.ursinaengine.org/) to render the visuals. This is a game engine build on top of Panda3D, which means a lot of the hard rendering and UI work is done for us. I settled early on for a design where notes are represented using colours spreading as ripples over a spherical surface. This is achieved by a custom GLSL shader.
+I'm using [Ursina](https://www.ursinaengine.org/) to render the visuals. This is a game engine built on top of Panda3D, which means a lot of the hard rendering and UI work is done for us. I settled early on for a design where notes are represented using colours spreading as ripples over a spherical surface. This is achieved by a custom GLSL shader.
 
 The colours map directly to notes, so each chord gets its own colour palette. I've used a system which Stephen Malinowski calls [harmonic colouring](https://www.musanim.com/HarmonicColoring/), so that notes which are harmonically near to each other are similar in colour.
 
 ### user interactivity
-Users have control of high level controls such as the metre, tempo, and textures. They can also click on the screen to create their own melodies, which are snapped to notes of the current musical scale. Users are able to record a melodic cell of their own, which will subsequently appear in the system generated melodies.
+Users have access to high level controls such as the metre, tempo, and textures. They can also click on the screen to create their own melodies, which are snapped to notes of the current musical scale. Users are able to record a melodic cell of their own, which will subsequently appear in the system generated melodies.
 

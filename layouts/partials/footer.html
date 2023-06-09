@@ -1,0 +1,11 @@
+<footer>
+    {{$footerText := string ""}}
+    {{ with .Site.Copyright }}
+    {{$footerText = . | safeHTML}}
+    {{else}}
+    {{$footerText = .Site.Title }}
+    {{end}}
+    <h6> &copy; {{ now.Year }} - {{$footerText}} <br>
+    Powered by <a href="https://github.com/jacksalici/salinger-theme">Salinger</a> Hugo theme.
+
+</footer>
