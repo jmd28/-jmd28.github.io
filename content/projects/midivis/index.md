@@ -1,7 +1,7 @@
 ---
 title: "midi vis"
 date: 2023-06-29T14:31:35+01:00
-draft: true
+draft: false
 ---
 
 ![banner](vis.png)
