@@ -1,5 +1,5 @@
 ---
-title: "Generative Music"
+title: "generative music"
 date: 2023-06-08T15:49:22+01:00
 draft: false
 ---
@@ -39,7 +39,7 @@ Melodies in this system come in the form of melodic cells. The melodic cells are
 The melodic cells are evolved gradually over time, using retrograde, inversion, and modular multiplication.
 
 #### basslines
-The system either plays one bass note per chord, or walks a bassline by outlining the chord with approach tones.
+The system either plays one bass note per chord, or walks a bassline by outlining the chord and using approach tones.
 
 #### arpeggiator
 The chords are also outlined by an arpeggiator, the volume of which is modulated by a low frequency sine wave.

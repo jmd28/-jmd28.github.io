@@ -2,7 +2,7 @@ baseURL = 'https://jmd28.github.io/'
 languageCode = 'en-gb'
 theme = 'salinger'
 
-title = "james diffley"
+title = "james diffley."
 copyright = 'james diffley'
 ignoreErrors = ["error-remote-getjson"]
 
@@ -52,18 +52,18 @@ before = ", or contact me by"
 
 [Menu]
 [[Menu.Main]]
-name = "Projects."
+name = "projects."
 url = "/projects/"
 weight = 1
 
 [[Menu.Main]]
-name = "CV."
+name = "cv."
 url = "/CV.pdf"
 weight = 3
 
 
 [[Menu.Main]]
-name = "Contact me."
+name = "contact me."
 url = "mailto:mail@mail.com"
 weight = 2
 
