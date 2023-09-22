@@ -12,7 +12,7 @@ DateFormat = " 8 January 2006"
 author = "james diffley"
 description = "I'm a computer science graduate based in the UK."
 header = "<strong>james diffley. </strong>"
-keywords = [ "Portfolio", "developer", "coding", "maker"]
+keywords = ["Portfolio", "developer", "coding", "maker"]
 showHeaderOnHomepage = true
 #googleAnalytics = ""
 twemoji = true
@@ -21,25 +21,25 @@ text404 = "Since the page you were looking for seems like doesn't exist, we <str
 
 
 [permalinks]
-  '/' = '/:slug/'
-  'projects' = '/:slug/'
+'/' = '/:slug/'
+'projects' = '/:slug/'
 
 [[params.social]]
 name = "github"
-url = "https://github.com/example"
+url = "https://github.com/jmd28"
 icon = "fa fa-github"
 before = "Check out my "
 
 [[params.social]]
 name = "linkedin"
-url = "https://twitter.com/example"
+url = "www.linkedin.com/in/jamesdiffley28"
 icon = "fa fa-linkedin"
 before = "and "
 
 [[params.social]]
 name = "email"
 icon = "fa fa-envelope"
-url = "mailto:hi@john.com"
+url = "mailto:jamesdiffley28@gmail.com"
 before = ", or contact me by"
 
 # [[params.social]]
@@ -68,11 +68,11 @@ url = "mailto:mail@mail.com"
 weight = 2
 
 [taxonomies]
-	tag = "tags"
-	category = "categories"
+tag = "tags"
+category = "categories"
 
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
