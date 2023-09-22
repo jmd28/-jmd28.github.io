@@ -32,7 +32,7 @@ before = "Check out my "
 
 [[params.social]]
 name = "linkedin"
-url = "www.linkedin.com/in/jamesdiffley28"
+url = "https://www.linkedin.com/in/jamesdiffley28"
 icon = "fa fa-linkedin"
 before = "and "
 
