@@ -1,7 +1,7 @@
 ---
 title: "raycaster"
 date: 2024-01-10T14:31:35+00:00
-draft: true
+draft: false
 ---
 
 ![banner](world.png)
