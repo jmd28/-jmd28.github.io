@@ -10,7 +10,7 @@ ignoreErrors = ["error-remote-getjson"]
 DateFormat = " 8 January 2006"
 
 author = "james diffley"
-description = "I'm a computer science graduate based in the UK."
+description = "software engineer | portfolio with quick links to useful places"
 header = "<strong>james diffley. </strong>"
 keywords = ["Portfolio", "developer", "coding", "maker"]
 showHeaderOnHomepage = true
