@@ -28,7 +28,7 @@ Here is an overview of the project's design and structure.
 The system uses a trigrams model trained on a few thousand jazz tunes, in the form of textual chord charts. The model is then sampled using the previous two chords to inform the choice of the next.
 
 ### chord voicing
-We can then voice the generated chord symbols as a set of musical pitches, being careful not to create two many dissonances. This is achieved by using a backtracking constraint solver, which searches combinations of pitches until no harmonic rules are violated. As we can see below, the program does a decent job of sticking to idiomatic harmony and voicing!
+We can then voice the generated chord symbols as a set of musical pitches, being careful not to create too many dissonances. This is achieved by using a backtracking constraint solver, which searches combinations of pitches until no harmonic rules are violated. As we can see below, the program does a decent job of sticking to idiomatic harmony and voicing!
 
 ![harmony](analysis.png)
 
